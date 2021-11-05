@@ -35,4 +35,3 @@ fastp -i SRR12966358_subreads.fastq -o out.R11.fq
 
 # Remeber to rename each fastp.html and fastp.json file that is generated from eah line of code. 
 # The default name is always the same and requires manual changing.
-
