@@ -7,4 +7,5 @@ We hypothesize that the detected markers using the outlined barcoding methodolog
 
 ## Pipeline
 > The variant barcoding pipelines published and initially cited in the published literature have software that have either depreciated, have unresolved bugs, or do not work in the Mac Operating System (OSX).
+> 
 **This repository has a 2021-updated version of this pipeline using softwares and their counterparts that are compatible with OSX and are still maintained.**
