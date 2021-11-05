@@ -3,6 +3,7 @@
 ## *Mycobacterium orygis* is an emerging pathogen with no main markers for its identification
 Performing this variant analysis will allow us to produce markers with the **goal of its identification in clinical and epidemiological settings.**
 > We aim to accomplish this through the **identification of SNP based markers specific in *M. orygis* genomes in comparison to *M. bovis*, *M. tuberculosis* and *M. africanum*.**
+> 
 We hypothesize that the detected markers using the outlined barcoding methodology are sufficient markers to differentiate *M. orygis* from other members of the MTBC.
 
 ## Pipeline
