@@ -1,6 +1,6 @@
 # Variant Barcoding of *Mycobacterium orygis*
 
-## *Mycobacterium orygis* is an emerging pathogen with no main markers for its identification
+## *Mycobacterium orygis* is an overlooked pathogen with no main markers for its identification
 Performing this variant analysis will allow us to produce markers with the **goal of its identification in clinical and epidemiological settings.**
 > We aim to accomplish this through the **identification of SNP based markers specific in *M. orygis* genomes in comparison to *M. bovis*, *M. tuberculosis* and *M. africanum*.**
 > 
