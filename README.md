@@ -1,4 +1,4 @@
-# Detecting Single Nucleotide Polymorphisms in Mycobacterium orygis for the Creation of Standardized Diagnostic Markers
+# Detecting Single Nucleotide Polymorphisms in *Mycobacterium orygis* for the Creation of Standardized Diagnostic Markers
 
 ## Variant Barcoding of *Mycobacterium orygis*
 ### What is *Mycobacterium orygis*
