@@ -9,7 +9,8 @@ Variant barcoding is an *in silico* technique that uses nucleotide markers, such
 We hypothesize that by using the variant barcoding methodology and validating our findings through Polymerase Chain Reaction and Sanger Sequencing, we would identify *M. orygis* specific SNPs that can be used as standard markers for *M. orygis* detection.
 
 Pipeline for Variant Barcoding of *Mycobacterium orygis*
-![Variant Barcoding Pipeline](https://drive.google.com/file/d/1NEeAMHDJxpQCXpAmxfocyMWMDLOYWWaN/view?usp=sharing)
+
+![Variant Barcoding Pipeline](file:///Users/maryagopian/Desktop/Pipeline%20Honours.jpg)
 
 Pipeline detailing the various steps involved in quality checking, data clean-up, SNP generation and visualization, and phylogenetic tree generation and visualization. This pipeline has been modified and adapted to suit this project from the BAGEP pipeline (Source: [BAGEP GitHub](https://github.com/idolawoye/BAGEP)).
 
