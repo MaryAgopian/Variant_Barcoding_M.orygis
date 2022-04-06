@@ -34,5 +34,5 @@ fastp -i ERR2199829_1.fastq.gz -I ERR2199829_2.fastq.gz -o ERR2199829_out.R1.fas
 #Sample 8:
 fastp -i ERR2512389_1.fastq.gz -I ERR2512389_2.fastq.gz -o ERR2512389_out.R1.fastq.gz -O ERR2512389_out.R2.fastq.gz
 
-#Remeber to rename each fastp.html and fastp.json file that is generated from each line of code. 
+#Remember to rename each fastp.html and fastp.json file that is generated from each line of code. 
 #The default name is always the same and requires manual changing or it will be overidden with each new piece of code
