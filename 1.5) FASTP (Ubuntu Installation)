@@ -1,22 +1,21 @@
 #Installing FASTP (Ubuntu)
 
-#Step 1: download and build libisal
-git clone https://github.com/intel/isa-l.git
-cd isa-l
-./autogen.sh
+#Step 1: Miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda2-latest-Linux-x86_64.sh
+bash Miniconda2-latest-Linux-x86_64.sh
 
-#Change Makefile. am → Makefile.in
-./configure --prefix=/usr --libdir=/usr/lib64
-make -f Makefile.unx
-sudo make -f Makefile.unx install
+#Step 2: Conda
+cd /tmp
+curl -O https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+bash Anaconda3-2021.05-Linux-x86_64.sh
 
-#Step 2: download and build libdeflate
-git clone https://github.com/ebiggers/libdeflate.git
-cd libdeflate
-make
-sudo make install
+#Step 3: Bowtie2
+conda config --add channels bioconda
+conda create --name bowtie2 --clone base
+conda activate bowtie2
+conda install bowtie2
 
-#Step 3: download and build fastp
+#Step 4: download and build fastp
 # get source (you can also use browser to download from master or releases)
 git clone https://github.com/OpenGene/fastp.git
 
