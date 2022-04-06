@@ -1,0 +1,34 @@
+#Snippy seems to have a few bugs on the MacOS version because of the recent updates
+#A potential solution is to use Snippy on a Linux based OS instead
+
+#Attempting to troubleshoot Snippy on Mac OS
+
+#Install
+brew install brewsci/bio/snippy
+
+#Template
+snippy [options] --outdir <dir> --ref <ref> --R1 <R1.fq.gz> --R2 <R2.fq.gz>
+snippy --force --cleanup --outdir {output[0]} --ref {params.ref} --R1 {input[0]} --R2 {input[1]}
+
+#Troubleshoot 1
+#Note: The freebayes in snippy is broken
+#Freebayes needs to be deleted from Darwin and Linux folders and reinstalled with brew
+brew install freebayes
+
+#Troubleshoot 2
+#Note: Python 3 is not compatible with Snippy
+#Python needs to be systematically downgraded to Python 2.7
+brew install python@2
+
+pip install pyenv
+pyenv install 2.7.9
+
+python --version
+
+#Also need to find Python in system
+which python
+
+#This outputs the folder that the Python is located in
+#Delete the entire Python framework
+#Samples code that should work with troubleshooting and patches
+snippy --force --cleanup --outdir ERR015582_output --ref Mafricanum.gbff --R1 ERR015582_out.R1.fastq.gz --R2 ERR015582_out.R2.fastq.gz
