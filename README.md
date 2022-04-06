@@ -10,7 +10,7 @@ We hypothesize that by using the variant barcoding methodology and validating ou
 
 Pipeline for Variant Barcoding of *Mycobacterium orygis*
 
-![Variant Barcoding Pipeline](file:///Users/maryagopian/Desktop/Pipeline%20Honours.jpg)
+![Pipeline Honours](https://user-images.githubusercontent.com/84090265/161920780-8631f989-a41f-44fc-a130-57e8e2b113d0.jpg)
 
 Pipeline detailing the various steps involved in quality checking, data clean-up, SNP generation and visualization, and phylogenetic tree generation and visualization. This pipeline has been modified and adapted to suit this project from the BAGEP pipeline (Source: [BAGEP GitHub](https://github.com/idolawoye/BAGEP)).
 
