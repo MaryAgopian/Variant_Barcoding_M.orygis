@@ -1,11 +1,11 @@
-#Research Project: Detecting Single Nucleotide Polymorphisms in Mycobacterium orygis for the Creation of Standardized Diagnostic Markers
+# Research Project: Detecting Single Nucleotide Polymorphisms in Mycobacterium orygis for the Creation of Standardized Diagnostic Markers
 
-##Variant Barcoding of *Mycobacterium orygis*
-###What is *Mycobacterium orygis*
+## Variant Barcoding of *Mycobacterium orygis*
+### What is *Mycobacterium orygis*
 *Mycobacterium orygis* is an overlooked member of the *Mycobacterium tuberculosis* complex (MTBC). *M. orygis* had initially been detected in animals such as oryxes, cattle, antelopes, and rhesus monkeys. However, *M. orygis* has recently been isolated in patients presenting with tuberculosis from South Asia (Bangladesh, India, Nepal, and Pakistan). *M. orygis* has no accepted markers for identifying and tracking, which is a point of concern for rapid clinical diagnosis and epidemiological tracking. 
-###What is variant barcoding?
+### What is variant barcoding?
 Variant barcoding is an *in silico* technique that uses nucleotide markers, such as single nucleotide polymorphisms (SNPs), to distinguish variants.
-###Our hypothesis
+### Our hypothesis
 We hypothesize that by using the variant barcoding methodology and validating our findings through Polymerase Chain Reaction and Sanger Sequencing, we would identify *M. orygis* specific SNPs that can be used as standard markers for *M. orygis* detection.
 
 Pipeline for Variant Barcoding of *Mycobacterium orygis*
